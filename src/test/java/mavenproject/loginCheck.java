@@ -19,6 +19,7 @@ public class loginCheck {
 		driver.get("https://www.facebook.com/");
 		driver.findElement(By.id("email")).sendKeys("ggokull@gmail.com");;
 		driver.findElement(By.id("pass")).sendKeys("gokul.s");
+		driver.findElement(By.name("login")).click();
 	}
 	
 	@AfterSuite
