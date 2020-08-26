@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14885" started-at="2020-08-26T14:06:59 IST" finished-at="2020-08-26T14:07:13 IST">
+  <suite name="Suite" duration-ms="24216" started-at="2020-08-26T15:06:27 IST" finished-at="2020-08-26T15:06:51 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14885" started-at="2020-08-26T14:06:59 IST" finished-at="2020-08-26T14:07:13 IST">
+    <test name="Test" duration-ms="24216" started-at="2020-08-26T15:06:27 IST" finished-at="2020-08-26T15:06:51 IST">
       <class name="mavenproject.loginCheck">
-        <test-method status="PASS" signature="setup()[pri:0, instance:mavenproject.loginCheck@5c3bd550]" name="setup" is-config="true" duration-ms="14174" started-at="2020-08-26T14:06:44 IST" finished-at="2020-08-26T14:06:59 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:mavenproject.loginCheck@73ad2d6]" name="setup" is-config="true" duration-ms="50153" started-at="2020-08-26T15:05:37 IST" finished-at="2020-08-26T15:06:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="doLogin()[pri:0, instance:mavenproject.loginCheck@5c3bd550]" name="doLogin" duration-ms="14786" started-at="2020-08-26T14:06:59 IST" finished-at="2020-08-26T14:07:13 IST">
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:mavenproject.loginCheck@73ad2d6]" name="doLogin" duration-ms="24126" started-at="2020-08-26T15:06:27 IST" finished-at="2020-08-26T15:06:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:mavenproject.loginCheck@5c3bd550]" name="teardown" is-config="true" duration-ms="61897" started-at="2020-08-26T14:07:29 IST" finished-at="2020-08-26T14:08:31 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:mavenproject.loginCheck@73ad2d6]" name="teardown" is-config="true" duration-ms="44945" started-at="2020-08-26T15:07:04 IST" finished-at="2020-08-26T15:07:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
