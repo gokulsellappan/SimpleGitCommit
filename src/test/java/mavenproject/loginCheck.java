@@ -9,6 +9,8 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class loginCheck {
 	
 	
@@ -19,7 +21,8 @@ public class loginCheck {
 		
 		//System.setProperty("webdriver.gecko.driver","D:\\gokul\\Testing\\selenium\\geckodriver-v0.27.0-win64\\geckodriver.exe");
 		//driver= new FirefoxDriver();
-		System.setProperty("webdriver.chrome.driver","D:\\sstudy\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","D:\\sstudy\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
 	}
 	
