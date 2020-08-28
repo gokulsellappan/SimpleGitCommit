@@ -17,6 +17,9 @@ public class loginCheck {
 	@BeforeSuite
 	public void setup() {
 		
+		//System.setProperty("webdriver.gecko.driver","D:\\gokul\\Testing\\selenium\\geckodriver-v0.27.0-win64\\geckodriver.exe");
+		//driver= new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver","D:\\sstudy\\chromedriver.exe");
 		driver= new ChromeDriver();
 	}
 	
